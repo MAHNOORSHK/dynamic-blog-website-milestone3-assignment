@@ -339,7 +339,11 @@ export default function BlogDetail({ params }: { params: { blogdetails: string }
                   className="w-full p-4 bg-gray-50 rounded-lg border"
                   onSubmit={(e) => {
                     e.preventDefault();
-                    editComment ? handleSaveComment() : handleAddComment();
+                    if (editComment) {
+                      handleSaveComment();
+                    } else {
+                      handleAddComment();
+                    }
                   }}
                 >
                   <h2 className="text-2xl mb-4 font-medium text-gray-800">
