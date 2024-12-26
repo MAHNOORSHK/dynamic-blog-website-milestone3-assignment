@@ -11,32 +11,32 @@ export default function AboutUs() {
       <div className="max-w-screen-xl flex flex-col lg:flex-row lg:justify-between gap-12 lg:gap-16">
         {/* Left Content */}
         <div className="lg:w-[50%] space-y-6">
-          <p className="text-[#FF9F0D] text-[24px] font-mono">
-            About us
-          </p>
-          <p className="text-[28px] md:text-[38px] leading-[1.2] font-bold">
+          <h2 className="text-[#FF9F0D] text-lg font-bold font-Great Vibes">
+            About Us
+          </h2>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#FFFFFF] mt-2 leading-tight">
             <span className="text-[#FF9F0D]">We</span> Create the best foody product
-          </p>
+          </h1>
+
           <p className="text-base pt-4 leading-7 text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.
-          </p>
+          At our company, we are passionate about creating exceptional food products that deliver the perfect balance of flavor, quality, and convenience. Our products are crafted using the finest ingredients, ensuring a memorable taste experience with every bite. We understand that food is not just about nourishment, but about bringing joy and satisfaction to your daily life.           </p>
           <div className="space-y-4">
             <div className="flex items-start gap-3">
               <TiTick className="text-xl mt-1 text-[#FF9F0D]" />
               <p className="text-lg leading-7">
-                Lacus nisi, et ac dapibus sit eu velit in consequat.
+              Premium Ingredients for Exceptional Flavor
               </p>
             </div>
             <div className="flex items-start gap-3">
               <TiTick className="text-xl mt-1 text-[#FF9F0D]" />
               <p className="text-lg leading-7">
-                Lacus nisi, et ac dapibus sit eu velit in consequat.
+              Innovative Recipes with Unique Flavor Combinations
               </p>
             </div>
             <div className="flex items-start gap-3">
               <TiTick className="text-xl mt-1 text-[#FF9F0D]" />
               <p className="text-lg leading-7">
-                Lacus nisi, et ac dapibus sit eu velit in consequat.
+              Convenient and Quick Meal Solutions
               </p>
             </div>
           </div>

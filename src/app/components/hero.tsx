@@ -28,11 +28,10 @@ export default function Hero() {
               <span className="text-[#FF9F0D]">Th</span>e Art of Speed <br /> Food Quality
             </h1>
             <p className="text-[#FFFFFF] mt-4 pb-7">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius sed
-              pharetra dictum neque massa congue.
+           Blends fast service with exceptional taste, ensuring every dish is crafted with care and delivered with efficiency.
             </p>
-            <Link href={"/menu"} className="mt-6 px-6 py-2 bg-[#FF9F0D] text-[#FFFFFF] rounded-full font-semibold hover:bg-[#FF9F0D] transition">
-              See Menu
+            <Link href={"/about"} className="mt-6 px-6 py-2 bg-[#FF9F0D] text-[#FFFFFF] rounded-full font-semibold hover:bg-[#FF9F0D] transition">
+              See More
             </Link>
           </div>
 

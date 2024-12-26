@@ -3,10 +3,18 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Navbar from '@/app/components/header';
-import blogpage1 from '@/app/images/blogpage1.png';
-import blogpage2 from '@/app/images/blogpage2.png';
-import blogpage3 from '@/app/images/blogpage3.png';
-import blogpage4 from '@/app/images/blogpage4.png';
+import blogpage1 from "@/app/images/blogpage1.png";
+import blogpage2 from "@/app/images/blogpage2.png";
+import blogpage3 from "@/app/images/blogpage3.png";
+import blogpage4 from "@/app/images/blogpage4.png";
+import blogpage5 from "@/app/images/blogpage5.png";
+import blogpage6 from "@/app/images/blogpage6.png";
+import blogpage7 from "@/app/images/blogpage7.png";
+import blogpage8 from "@/app/images/blogpage8.png";
+import blogpage9 from "@/app/images/blogpage9.png";
+import blogpage10 from "@/app/images/blogpage10.png";
+import blogpage11 from "@/app/images/blogpage11.png";
+import blogpage12 from "@/app/images/blogpage12.png";
 import quote from '@/app/images/Quotes.png';
 import blogauthor from "@/app/images/blogauthor.png";
 import recent1 from "@/app/images/recent1.png";
@@ -28,33 +36,75 @@ const blogPosts: BlogPost[] = [
   {
     id: 1,
     image: blogpage1,
-    title: '10 Reasons To Do A Digital Detox Challenge',
-    content:
-      'Netus pretium tellus nulla commodo massa adipiscing in elementum magna congue condimentum placerat habitasse potenti ac orci a quisque tristique elementum et viverra at condimentum scelerisque eu mi. Elit praesent cras vehicula a ullamcorper nulla scelerisque aliquet tempus faucibus quam ac aliquet nibh a condimentum suspendisse hac integer leo erat aliquam ut himenaeos.'
+    title: "10 Reasons To Do A Digital Detox Challenge",
+    content: "In our fast-paced digital world, taking a break from screens can improve mental clarity, reduce stress, and help you reconnect with the present moment. Explore how a digital detox challenge can bring balance to your life and enhance overall well-being."
   },
   {
     id: 2,
     image: blogpage2,
-    title: 'Traditional Soft Pretzels with Sweet Beer Cheese',
-    content:
-      'At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat'
+    title: "Traditional Soft Pretzels with Sweet Beer Cheese",
+    content: "Discover the art of making traditional soft pretzels at home, paired with a rich and savory sweet beer cheese. This recipe brings the perfect blend of textures and flavors, making it an irresistible treat for any occasion."
   },
   {
     id: 3,
     image: blogpage3,
-    title: 'The Ultimate Hangover Burger: Egg in a Hole Burger',
-    content:
-      'At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat',
-
+    title: "The Ultimate Hangover Burger: Egg in a Hole Burger",
+    content: "Looking for the perfect cure for a hangover? This ultimate egg-in-a-hole burger features a crispy patty, a perfectly fried egg, and savory toppings, offering comfort and satisfaction all in one delicious bite."
   },
   {
     id: 4,
     image: blogpage4,
-    title: 'My Favorite Easy Black Pizza Toast Recipe',
-    content:
-      'At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat',
-
+    title: "My Favorite Easy Black Pizza Toast Recipe",
+    content: "Craving a quick and delicious snack? This easy black pizza toast recipe is a perfect blend of crispy toast, melted cheese, and savory toppings, all in just a few minutes. It’s the ideal comfort food for a busy day or casual evening."
   },
+  {
+    id: 5,
+    image: blogpage5,
+    title: "5 Health Benefits of a Plant-Based Diet",
+    content: "Discover the many health benefits of switching to a plant-based diet. From better digestion to improved heart health, this article explores how plant-based eating can help you feel better inside and out. Learn about nutritious food options that will fuel your body and boost energy.",
+  },
+  {
+    id: 6,
+    image: blogpage6,
+    title: "How to Make the Perfect Homemade Pizza",
+    content: "Learn the secrets to making the perfect homemade pizza with this easy-to-follow guide. From the dough to the sauce and toppings, you'll discover how to create a crispy, cheesy pizza that tastes like it came from your favorite pizzeria. Ideal for family nights or weekend gatherings!",
+  },
+  {
+    id: 7,
+    image: blogpage7,
+    title: "Exploring the Best Global Breakfast Dishes",
+    content: "Breakfast around the world offers a variety of flavors and traditions. In this blog, we explore some of the best breakfast dishes from different countries. Whether it's a hearty English breakfast or a light Japanese miso soup, you'll find inspiration for your next morning meal.",
+  },
+  {
+    id: 8,
+    image: blogpage8,
+    title: "Top 10 Must-Try Dessert Recipes for Chocolate Lovers",
+    content: "Indulge your sweet tooth with these decadent chocolate desserts. From gooey brownies to creamy chocolate mousse, this list of must-try recipes is perfect for chocolate lovers looking to create some irresistible treats at home. Get ready to satisfy your cravings!",
+  },
+  {
+    id: 9,
+    image: blogpage9,
+    title: "10 Must-Try Street Foods Around the World",
+    content: "Explore the best street food from different corners of the world. From spicy tacos in Mexico to savory bao buns in Taiwan, this guide takes you through the most delicious and unique street food experiences. Get ready to satisfy your taste buds with authentic flavors from global food stalls.",
+  },
+  {
+    id: 10,
+    image: blogpage10,
+    title: "How to Choose the Perfect Wine Pairing for Dinner",
+    content: "Elevate your dining experience with the perfect wine pairing. Whether you're having a steak or seafood, this blog will guide you through the best wine pairings that complement your meal. Learn tips from sommeliers on how to choose wines that enhance the flavors of your dishes.",
+  },
+  {
+    id: 11,
+    image: blogpage11,
+    title: "The Ultimate Guide to Vegan Dining: Best Restaurants & Recipes",
+    content: "Looking for delicious vegan food options? This guide covers the best vegan-friendly restaurants and recipes. Whether you're a full-time vegan or just curious, discover tasty plant-based dishes and dining spots that cater to a cruelty-free lifestyle without compromising on flavor.",
+  },
+  {
+    id: 12,
+    image: blogpage12,
+    title: "Exploring the World of Fine Dining: Top Michelin-Starred Restaurants",
+    content: "Step into the world of luxury dining with a look at the finest Michelin-starred restaurants. From exquisite French cuisine to innovative culinary artistry, this blog explores the best of the best in fine dining. Learn about the dining experience, ambiance, and signature dishes that make these restaurants exceptional.",
+  }
 ];
 
 
@@ -203,14 +253,15 @@ export default function BlogDetail({ params }: { params: { blogdetails: string }
               </div>
               <div className="text-lg leading-relaxed text-gray-700 mb-8 pt-5">{blogPost.content}</div>
               <div className="text-lg leading-relaxed text-gray-700 mb-8 pt-5">{blogPost.content}</div>
-              <div className="my-10">
+              <div className="my-3">
                 {/* Yellow Box Section */}
-                <div className="bg-[#FF9F0D] flex p-6 md:p-8 rounded-md shadow-md my-6">
-                  <Image src={quote} alt='quote' />
+                <div className="bg-[#FF9F0D] flex flex-col md:flex-row p-3 md:p-8 rounded-md shadow-md my-3">
+                  <Image src={quote} alt="quote" width={100} height={100} className="mx-auto md:mr-6 md:mx-0" />
                   <p className="text-white text-lg md:text-xl font-semibold text-justify p-2">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
                   </p>
                 </div>
+
 
                 {/* Content After Yellow Box */}
                 <div className="mt-6 space-y-6">
@@ -259,50 +310,42 @@ export default function BlogDetail({ params }: { params: { blogdetails: string }
             </div>
 
             {/* Tags Container */}
-            <div className="border p-4 rounded-md flex flex-row gap-3">
+            <div className="border p-4 rounded-md flex flex-col sm:flex-row sm:gap-3 gap-4">
               {/* Section Title */}
               <h3 className="text-md font-semibold text-gray-800">Tags: </h3>
 
-              {/* Two-Column Layout */}
-              <div className="grid grid-cols-2 gap-6">
+              {/* Responsive Two-Column Layout */}
+              <div className="grid sm:grid-cols-2 grid-cols-1 gap-6 w-full">
                 {/* Tags Column */}
-                <div className="flex flex-row gap-3">
-                  <span className="text-sm px-3 py-1 ">
-                    Sandwich
-                  </span>
-                  <span className="text-sm px-3 py-1">
-                    Tikka
-                  </span>
-                  <span className="text-sm px-3 py-1 ">
-                    BBQ
-                  </span>
-                  <span className="text-sm px-3 py-1">
-                    Restaurant
-                  </span>
-                  <span className="text-sm px-3 py-1">
-                    Health
-                  </span>
+                <div className="flex flex-wrap gap-3">
+                  <span className="text-sm px-3 py-1 bg-gray-200 rounded-md">Sandwich</span>
+                  <span className="text-sm px-3 py-1 bg-gray-200 rounded-md">Tikka</span>
+                  <span className="text-sm px-3 py-1 bg-gray-200 rounded-md">BBQ</span>
+                  <span className="text-sm px-3 py-1 bg-gray-200 rounded-md">Restaurant</span>
+                  <span className="text-sm px-3 py-1 bg-gray-200 rounded-md">Health</span>
                 </div>
 
                 {/* Social Icons Column */}
-                <div className="flex flex-row items-center justify-end gap-6">
+                <div className="flex flex-col sm:flex-row sm:items-center items-start sm:justify-end gap-4">
                   <h3 className="text-md font-semibold text-gray-800">Share: </h3>
-
-                  <a href="#" className="text-xl">
-                    <FaFacebook />
-                  </a>
-                  <a href="#" className=" text-xl ">
-                    <FaTwitter />
-                  </a>
-                  <a href="#" className="text-xl">
-                    <FaInstagram />
-                  </a>
-                  <a href="#" className="text-xl">
-                    <FaLinkedin />
-                  </a>
+                  <div className="flex flex-row items-center gap-4">
+                    <a href="#" className="text-xl text-gray-700 hover:text-gray-900">
+                      <FaFacebook />
+                    </a>
+                    <a href="#" className="text-xl text-gray-700 hover:text-gray-900">
+                      <FaTwitter />
+                    </a>
+                    <a href="#" className="text-xl text-gray-700 hover:text-gray-900">
+                      <FaInstagram />
+                    </a>
+                    <a href="#" className="text-xl text-gray-700 hover:text-gray-900">
+                      <FaLinkedin />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
+
 
             <section className="bg-white border rounded-lg p-6">
               <h3 className="text-2xl font-bold text-gray-800 mb-6">Comments</h3>
@@ -421,19 +464,19 @@ export default function BlogDetail({ params }: { params: { blogdetails: string }
 
 
               <div className="flex items-center justify-center">
-                <svg className="w-4 h-4 text-yellow-300 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                <svg className="w-4 h-4 text-[#FF9F0D] me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
                   <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
                 </svg>
-                <svg className="w-4 h-4 text-yellow-300 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                <svg className="w-4 h-4 text-[#FF9F0D] me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
                   <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
                 </svg>
-                <svg className="w-4 h-4 text-yellow-300 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                <svg className="w-4 h-4 text-[#FF9F0D] me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
                   <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
                 </svg>
-                <svg className="w-4 h-4 text-yellow-300 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                <svg className="w-4 h-4 text-[#FF9F0D] me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
                   <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
                 </svg>
-                <svg className="w-4 h-4 text-yellow-300 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                <svg className="w-4 h-4 text-[#FF9F0D] me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
                   <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
                 </svg>
                 <p className="ms-1 text-sm font-medium text-gray-500 dark:text-gray-400">(1 Review)</p>

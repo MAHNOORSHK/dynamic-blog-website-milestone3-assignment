@@ -21,9 +21,7 @@ const Header = () => {
       {/* Desktop Header */}
       <div className="hidden lg:flex justify-between items-center">
         <ul className="flex gap-[10px] text-white font-medium text-[18px] " >
-          <Link href="/" className='hover:text-[#FF9F0D]'>
-            Home
-          </Link>
+          <Link href="/" className='hover:text-[#FF9F0D]'>Home</Link>
           <Link href="/blog" className='hover:text-[#FF9F0D]'>Blog</Link>
           <Link href="/about" className='hover:text-[#FF9F0D]'>About</Link>
           <Link href="/signin" className='hover:text-[#FF9F0D]'>Contact</Link>
@@ -64,14 +62,9 @@ const Header = () => {
           Close ✕
         </button>
         <ul className="flex flex-col gap-[10px] font-medium text-[16px] text-black p-[20px]">
-        <Link href="/" className='hover:text-[#FF9F0D]'>
-            Home
-          </Link>
-          <Link href="/menu" className='hover:text-[#FF9F0D]'>Menu</Link>
+        <Link href="/" className='hover:text-[#FF9F0D]'>Home</Link>
           <Link href="/blog" className='hover:text-[#FF9F0D]'>Blog</Link>
-          <Link href="/pages" className='hover:text-[#FF9F0D]'>Pages</Link>
           <Link href="/about" className='hover:text-[#FF9F0D]'>About</Link>
-          <Link href="/shop" className='hover:text-[#FF9F0D]'>Shop</Link>
           <Link href="/contact" className='hover:text-[#FF9F0D]'>Contact</Link>
         </ul>
       </div>

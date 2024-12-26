@@ -74,33 +74,13 @@ export default function About() {
               Food is an important part of a balanced Diet
             </p>
             <p className="mb-6 leading-relaxed mt-4 text-[#333333] text-sm md:text-base md:leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              diam pellentesque bibendum non dui volutpat fringilla bibendum.
-              Urna, elit augue urna, vitae feugiat pretium donec id elementum.
-              Ultrices mattis vitae mus risus. Lacus nisi, et ac dapibus sit eu
-              velit in consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              diam pellentesque bibendum non dui volutpat fringilla bibendum.
-              Urna, elit augue urna, vitae feugiat pretium donec id elementum.
-              Ultrices mattis vitae mus risus. Lacus nisi, et ac dapibus sit eu
-              velit in consequat.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              diam pellentesque bibendum non dui volutpat fringilla bibendum.
-              Urna, elit augue urna, vitae feugiat pretium donec id elementum.
-              Ultrices mattis vitae mus risus. Lacus nisi, et ac dapibus sit eu
-              velit in consequat.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              diam pellentesque bibendum non dui volutpat fringilla bibendum.
-              Urna, elit augue urna, vitae feugiat pretium donec id elementum.
-              Ultrices mattis vitae mus risus. Lacus nisi, et ac dapibus sit eu
-              velit in consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              diam pellentesque bibendum non dui volutpat fringilla bibendum.
-              Urna, elit augue urna, vitae feugiat pretium donec id elementum.
-              Ultrices mattis vitae mus risus. Lacus nisi, et ac dapibus sit eu
-              velit in consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              diam pellentesque bibendum non dui volutpat fringilla bibendum.
-              Urna, elit augue urna, vitae feugiat pretium donec id elementum.
-              Ultrices mattis vitae mus risus. Lacus nisi, et ac dapibus sit eu
-              velit in consequat.
+            Food is an essential part of a balanced diet, providing the nutrients and energy needed to maintain a healthy lifestyle. At Food Tuck, we believe in offering delicious and nutritious meals that support your well-being. Our focus is on using fresh, high-quality ingredients to create flavorful dishes that not only satisfy your cravings but also contribute to your overall health.
+            </p>
+            <p className="mb-6 leading-relaxed mt-4 text-[#333333] text-sm md:text-base md:leading-relaxed">
+            At Food Tuck, we understand that food is not just about taste, but about nourishing the body and soul. Our team of culinary experts is dedicated to crafting meals that are both wholesome and satisfying, bringing together the finest ingredients to ensure each dish supports your nutritional needs. Whether you're looking for a quick snack, a wholesome meal, or a delightful treat, we are committed to providing food that fuels your lifestyle.
+            </p>
+            <p className="mb-6 leading-relaxed mt-4 text-[#333333] text-sm md:text-base md:leading-relaxed">
+            We take pride in sourcing ingredients from trusted suppliers and focusing on sustainability. Every dish we prepare is made with care and attention to detail, ensuring that you experience the perfect balance of flavor, texture, and nutrition. At Food Tuck, we believe that great food should be accessible, enjoyable, and beneficial for your health, helping you stay energized and motivated throughout your day.
             </p>
             <div className="flex flex-row justify-center md:justify-start gap-4">
               {/* Button 1 */}
@@ -121,8 +101,9 @@ export default function About() {
       <section className="text-black px-7 lg:px-16 py-4">
         <div className="mx-auto flex px-6 items-center justify-center flex-col">
           <h1 className="text-3xl text-black font-bold mb-4">Why Choose Us</h1>
-          <p className="text-center w-fit text-wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam
-          pellentesque bibendum non dui volutpat fringilla bibendum.</p>
+          <p className="text-center w-fit text-wrap">We prioritize quality above all else, using only the freshest, finest ingredients in every dish we create. Our commitment to excellence ensures that every meal is both delicious and nutritious.
+          With years of experience, our culinary team brings a wealth of knowledge and passion to every recipe. We create balanced, flavorful meals that cater to your tastes and dietary preferences.
+          </p>
           <Image
             className="mb-10 object-cover object-center w-full h-96 mt-10"
             alt="hero"
@@ -144,7 +125,7 @@ export default function About() {
 
               {/* Text */}
               <h2 className="font-bold sm:text-xl text-2xl text-black">BEST CHEF</h2>
-              <p className="leading-relaxed text-black text-[14px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat</p>
+              <p className="leading-relaxed text-black text-[14px]">Our chefs are experts in crafting exceptional dishes, blending creativity and skill to deliver unforgettable culinary experiences.</p>
             </div>
 
             <div className="p-6 sm:w-1/3 w-1/2 flex flex-col items-center">
@@ -155,7 +136,7 @@ export default function About() {
 
               {/* Text */}
               <h2 className="font-bold sm:text-xl text-2xl text-black">120 Item food</h2>
-              <p className="leading-relaxed text-black text-[14px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat</p>
+              <p className="leading-relaxed text-black text-[14px]">Explore a diverse range of 120 mouthwatering dishes, offering something for every taste and craving!</p>
             </div>
 
             <div className="p-6 sm:w-1/3 w-1/2 flex flex-col items-center">
@@ -166,7 +147,7 @@ export default function About() {
 
               {/* Text */}
               <h2 className="font-bold sm:text-xl text-2xl text-black">Clean Environment</h2>
-              <p className="leading-relaxed text-black text-[14px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat</p>
+              <p className="leading-relaxed text-black text-[14px]">Enjoy your meals in a clean, comfortable, and welcoming environment, ensuring a pleasant dining experience every time.</p>
             </div>
           </div>
         </div>

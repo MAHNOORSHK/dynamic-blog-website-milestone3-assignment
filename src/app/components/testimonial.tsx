@@ -1,6 +1,6 @@
 import Image from "next/image";
 import testinomial from "@/app/images/testinomial.png";
-import quote from "@/app/images/Quotes.png";
+import quote from "@/app/images/Quote.png";
 
 export default function Testimonial() {
   return (
@@ -8,11 +8,11 @@ export default function Testimonial() {
       <div className="w-full lg:w-[1320px] flex flex-col items-center">
         {/* Heading */}
         <div className="w-full text-center mb-8 lg:text-left">
-          <h1 className="text-[#FF9F0D] text-[18px] sm:text-[24px] lg:text-[32px] sm:leading-[32px] lg:leading-[40px] greatVibes tracking-wider">
-            Testimonials
-          </h1>
-          <h1 className="text-[20px] md:text-[36px] lg:text-[30px] font-bold leading-snug md:leading-tight text-[#FF9F0D]openSans">
-            What Our Clients are Saying
+          <h2 className="text-[#FF9F0D] text-lg font-bold font-Great Vibes">
+            Testimonial
+          </h2>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#FFFFFF] mt-2 leading-tight">
+            <span className="text-[#FF9F0D]">Wh</span>at Our Clients are Saying
           </h1>
         </div>
 
@@ -29,7 +29,7 @@ export default function Testimonial() {
             </div>
 
             <div className="mt-4">
-              <p className="text-sm text-gray-800 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.</p>
+              <p className="text-sm text-gray-800 leading-relaxed">Alamin Hasan, a renowned food specialist, brings a wealth of experience and passion for culinary excellence. With a deep understanding of flavors, ingredients, and cooking techniques, Alamin consistently creates exceptional dishes that captivate the senses. Whether it's crafting innovative recipes or mastering classic favorites, Alamin's commitment to quality and creativity ensures every dish is a delightful experience. His expertise has made him a trusted figure in the world of food, where he continues to inspire and educate others with his culinary skills.</p>
             </div>
 
             {/* Star Ratings */}
