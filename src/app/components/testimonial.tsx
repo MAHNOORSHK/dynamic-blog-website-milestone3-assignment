@@ -29,7 +29,7 @@ export default function Testimonial() {
             </div>
 
             <div className="mt-4">
-              <p className="text-sm text-gray-800 leading-relaxed">Alamin Hasan, a renowned food specialist, brings a wealth of experience and passion for culinary excellence. With a deep understanding of flavors, ingredients, and cooking techniques, Alamin consistently creates exceptional dishes that captivate the senses. Whether it's crafting innovative recipes or mastering classic favorites, Alamin's commitment to quality and creativity ensures every dish is a delightful experience. His expertise has made him a trusted figure in the world of food, where he continues to inspire and educate others with his culinary skills.</p>
+              <p className="text-sm text-gray-800 leading-relaxed">Alamin Hasan, a renowned food specialist, brings a wealth of experience and passion for culinary excellence. With a deep understanding of flavors, ingredients, and cooking techniques, Alamin consistently creates exceptional dishes that captivate the senses. Whether it&apos;s crafting innovative recipes or mastering classic favorites, Alamin&apos;s commitment to quality and creativity ensures every dish is a delightful experience. His expertise has made him a trusted figure in the world of food, where he continues to inspire and educate others with his culinary skills.</p>
             </div>
 
             {/* Star Ratings */}

@@ -110,7 +110,7 @@ export default function BlogPage() {
   const currentPosts = blogPosts.slice(indexOfFirstPost, indexOfLastPost);
 
   // Handle page change
-  const paginate = (pageNumber:any) => setCurrentPage(pageNumber);
+  const paginate = (pageNumber:number) => setCurrentPage(pageNumber);
 
   // Total number of pages
   const totalPages = Math.ceil(blogPosts.length / postsPerPage);
